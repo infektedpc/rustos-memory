@@ -1,0 +1,13 @@
+[package]
+name = "rustos-memory"
+version = "0.1.0"
+edition = "2021"
+description = "no_std physical frame allocator, paging helpers, and heap allocators for a Rust OS"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "rustos_memory"
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 0
